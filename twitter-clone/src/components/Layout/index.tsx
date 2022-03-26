@@ -42,8 +42,9 @@ export default function Layout() {
     <Container>
       <Wrapper>
         <MenuBar handleOpenModal={handleOpenModal} />
-        <Main />
+        {/* <Main /> */}
         <SideBar />
+
         <Modal
           isOpen={showModal}
           contentLabel=''
