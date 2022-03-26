@@ -1,0 +1,13 @@
+1: Criar dentro da pasta components o componente Layout
+1.1: Container, Wrapper e Main
+
+2: Criar componente Main
+2.1: Container, Header, button, ProfileInfo
+2.1.1: configuar no /styles o arquivo Icons.ts
+2.2 BottomMenu, HomeIcon, SearchIcon, BellIcon, EmailIcon
+2.3 Criar componente ProfilePage
+2.3.1 Container, Banner, Avatar, ProfileData, LocationIcon, CakeIcon, Followage
+2.3.2 Criar componente Button
+2.3.3 Adicionar o EditButton e css
+2.4 Criar componente Feed
+2.5 Criar componente Tweet
