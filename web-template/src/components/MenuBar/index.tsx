@@ -16,7 +16,7 @@ import {
   ExitIcon,
 } from './styles';
 
-export default function ManuBar() {
+export default function ManuBar(props: any) {
   return (
     <Container>
       <Top>
@@ -46,7 +46,11 @@ export default function ManuBar() {
           <span>Perfil</span>
         </MenuButton>
 
-        <Button>
+        <Button
+          onClick={() => {
+            props.handleOpenModal();
+          }}
+        >
           <span>Tweetar</span>
         </Button>
       </Top>
